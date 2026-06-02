@@ -1,0 +1,56 @@
+:root{
+    --azul:#2563eb;
+    --oscuro:#1e293b;
+    --blanco:#ffffff;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+}
+
+header{
+    background:var(--oscuro);
+    color:var(--blanco);
+    padding:20px;
+    text-align:center;
+}
+
+.hero{
+    height:80vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero h2{
+    margin-bottom:15px;
+}
+
+.hero p{
+    margin-bottom:20px;
+    max-width:500px;
+}
+
+button{
+    background:var(--azul);
+    color:white;
+    border:none;
+    padding:12px 24px;
+    border-radius:5px;
+}
+
+footer{
+    background:var(--oscuro);
+    color:white;
+    text-align:center;
+    padding:15px;
+}
