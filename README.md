@@ -18,3 +18,6 @@ Agrega aquí una captura llamada `captura.png` después de abrir la página en e
 
 ## Repositorio GitHub
 Pega aquí el enlace de tu repositorio.
+## Captura de pantalla
+
+![Captura](captura.png)
