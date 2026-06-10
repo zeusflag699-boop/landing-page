@@ -54,3 +54,20 @@ footer{
     text-align:center;
     padding:15px;
 }
+.modo-oscuro {
+    background-color: #222;
+    color: white;
+}
+
+.modo-oscuro h1,
+.modo-oscuro h2,
+.modo-oscuro p,
+.modo-oscuro a {
+    color: white;
+}
+
+#modoOscuro {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 20px;
+}
